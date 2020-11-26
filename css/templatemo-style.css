@@ -6,31 +6,32 @@ http://www.templatemo.com/tm-485-rainbow
 
 -----------------------------*/
 body {	
-	color: #64572a;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #000000;
+	/*font-family: 'Open Sans', Helvetica, Arial, sans-serif;*/
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .tm-bg-img-header {
-	background-image: url('../img/rainbow-header-bg.jpg');
+	
+	background-image: url('../img/logo.jpeg');
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: contain;
 }
 
 .tm-bg-img-content {
-	background-image: url('../img/rainbow-content-bg.jpg');
-	background-repeat: repeat;
+	background-color: #ffffff;
 }
 
-a { color: #196d92;  }
+a { color: #0095a8;  }
 a, button { transition: all 0.3s ease; }
 button:focus { outline: none; }
 a:hover,
 a:focus,
 .nav-link.active {
-	color: #64572a;
+	color: #000000;
 	text-decoration: none;
 	outline: none;
 }
@@ -66,7 +67,7 @@ a:focus,
 		top: 0;
 		font-size: 0.6em;
 		height: 54px;		
-		background-color: rgba(235, 222, 180, 0.86);
+		background-color: rgba(156, 204, 101, 0.86);
 	}
 }
 
@@ -85,9 +86,10 @@ a:focus,
 /* 1. Site header 
 --------------------------*/
 .tm-site-title {
-    color: #fffeff;
-    text-shadow: 0px 2px 2px rgb(146, 109, 46);
-    font-family: 'Times New Roman', Georgia, sans-serif;
+    color: #000000;
+    /*text-shadow: 0px 2px 2px #9ccc65;*/
+	/*font-family: 'Times New Roman', Georgia, sans-serif;*/
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 4.4rem;
     margin-top: 10rem;
     margin-bottom: 1.5rem;
@@ -449,12 +451,12 @@ a:focus,
 	color: #655623;
 	padding: .75rem 1.75rem;
 	font-size: 1.4rem;
-	background-color : #E3D4A9;
+	background-color : #9ccc65;
 	border-radius: 0;
-	border-color: #917D33;
+	border-color: #6b9b37;
 }
 
-.form-control:focus { border-color: #393422; }
+.form-control:focus { border-color: #655623; }
 
 textarea.form-control {
 	padding-top: 1.15rem;
@@ -496,14 +498,14 @@ textarea.form-control {
     font-weight: 300;
     padding: 0.9rem 3rem;
     border-radius: 0;
-    background-color: #E3D4A9;
-    border-color: #917D33;
+    background-color: #9ccc65;
+    border-color: #6b9b37;
     color: #655623;
 }
 
 .tm-btn-brown-square:hover,
 .tm-btn-brown-square:focus {
-	background-color: #655623;
+	background-color: #6b9b37;
 	color: #E3D4A9;
 }
 
