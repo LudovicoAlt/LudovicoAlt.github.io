@@ -32,7 +32,7 @@ a:hover,
 a:focus,
 .nav-link.active {
 	color: #000000;
-	font-size: 2.4rem;
+	font-size: 2.2rem;
 	text-decoration: none;
 	outline: none;
 }
@@ -54,7 +54,12 @@ a:focus,
 .tm-navbar-row { z-index: 1000; }
 .tm-navbar-row.sticky .navbar {	padding: 0; }
 .tm-navbar-row.sticky .nav { font-size: 1.6rem; }
-
+.tm-navbar-row.sticky .nav .nav-link.active {
+	color: #000000;
+	font-size: 1.8rem;
+	text-decoration: none;
+	outline: none;
+}
 @media (min-width: 768px) {
 	.tm-navbar-row { height: 88px; }
 	.tm-navbar-row-absolute { 
